@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Một Chút Việt Nam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+    <div class="background">
+        <img id="main-image" src="" alt="ベトナムの風景">
+        <div class="overlay"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Một Chút Việt Nam</h1>
+            <div id="audio-player">
+                <audio id="bgm" src="https://object-storage.tyo1.sakura.ad.jp/v1/AUTH_1a6a480a10b345599284240722a9f36e/temp-public/vietnamese-music.mp3" loop></audio>
+                <button id="play-pause-btn" class="player-btn"><i class="material-icons">play_arrow</i></button>
+            </div>
+        </header>
+
+        <main>
+            <div id="card">
+                <p id="vietnamese-text"></p>
+                <p id="japanese-text"></p>
+                <p id="description-text"></p>
+            </div>
+        </main>
+
+        <footer>
+            <button id="prev-btn" class="nav-btn"><i class="material-icons">arrow_back</i></button>
+            <p class="creator-credit">製作者：hoshizora2307</p>
+            <button id="next-btn" class="nav-btn"><i class="material-icons">arrow_forward</i></button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
